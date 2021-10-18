@@ -15,7 +15,7 @@
 module Data.Array.Accelerate.Control.Lens.Lift ( liftLens )
   where
 
-import Data.Array.Accelerate
+import Data.Array.Accelerate hiding (Functor(..))
 
 
 #if defined(MIN_VERSION_accelerate)
